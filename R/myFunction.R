@@ -10,7 +10,7 @@
 #' @import dplyr
 myFunction = function(values, groups){
   result = data.frame(value = values, group = groups) %>%
-    group_by(group) %>%
-    summarize(avg = mean(value, na.rm = TRUE))
+    group_by_('group') %>%
+    summarize_(avg = ~mean(value, na.rm = TRUE))
   return(result)
 }
