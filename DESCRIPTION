@@ -8,4 +8,8 @@ License: MIT + file LICENSE
 LazyData: true
 Imports: 
   dplyr
-Suggests: testthat, covr
+Suggests: 
+  testthat, 
+  covr,
+  knitr
+VignetteBuilder: knitr
