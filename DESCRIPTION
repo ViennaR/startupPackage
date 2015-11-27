@@ -11,5 +11,6 @@ Imports:
 Suggests: 
   testthat, 
   covr,
-  knitr
+  knitr,
+  rmarkdown
 VignetteBuilder: knitr
